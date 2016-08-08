@@ -3,7 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
+<<<<<<< HEAD
 -- Generation Time: Aug 08, 2016 at 11:57 PM
+=======
+-- Generation Time: Aug 06, 2016 at 12:24 AM
+>>>>>>> origin/master
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -417,7 +421,10 @@ CREATE TABLE IF NOT EXISTS `tbltcontent` (
   `tcontentid` int(11) NOT NULL AUTO_INCREMENT,
   `tableid` int(11) NOT NULL,
   `tcontent_name` varchar(255) NOT NULL,
+<<<<<<< HEAD
   `status` int(11) NOT NULL DEFAULT '0',
+=======
+>>>>>>> origin/master
   PRIMARY KEY (`tcontentid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=42 ;
 
@@ -425,6 +432,7 @@ CREATE TABLE IF NOT EXISTS `tbltcontent` (
 -- Dumping data for table `tbltcontent`
 --
 
+<<<<<<< HEAD
 INSERT INTO `tbltcontent` (`tcontentid`, `tableid`, `tcontent_name`, `status`) VALUES
 (1, 1, '1-A', 1),
 (2, 1, '1-B', 0),
@@ -490,6 +498,50 @@ CREATE TABLE IF NOT EXISTS `tmpsorder` (
 INSERT INTO `tmpsorder` (`tmpsoid`, `meal`, `price`, `quantity`, `amount`) VALUES
 (1, 'bucket beer', 190, 1, 190),
 (2, 'bucket beer', 190, 1, 190);
+=======
+INSERT INTO `tbltcontent` (`tcontentid`, `tableid`, `tcontent_name`) VALUES
+(1, 1, '1-A'),
+(2, 1, '1-B'),
+(3, 1, '1-C'),
+(4, 1, '2-A'),
+(5, 1, '2-B'),
+(6, 1, '2-C'),
+(7, 1, '3'),
+(8, 1, '4'),
+(9, 1, '5'),
+(10, 1, '6'),
+(11, 1, '7'),
+(12, 2, 'S1'),
+(13, 2, 'S2'),
+(14, 2, 'S3'),
+(15, 3, '1-A'),
+(16, 3, '2-A'),
+(17, 3, '2-B'),
+(18, 3, '3-A'),
+(19, 3, '3-B'),
+(20, 3, '4-A'),
+(21, 3, '4-B'),
+(22, 3, '5-A'),
+(23, 3, '5-B'),
+(24, 4, 'HUTS1'),
+(25, 4, 'HUTS2'),
+(26, 4, 'HUTS3'),
+(27, 4, 'HUTS4'),
+(28, 4, 'HUTS5'),
+(29, 4, 'HUTS6'),
+(30, 4, 'HUTS7'),
+(31, 4, 'HUTS8'),
+(32, 5, 'X1'),
+(33, 5, 'X2'),
+(34, 5, 'X3'),
+(35, 5, 'X4'),
+(36, 5, 'X5'),
+(37, 5, 'X6'),
+(38, 5, 'X7'),
+(39, 5, 'X8'),
+(40, 5, 'X9'),
+(41, 5, 'X10');
+>>>>>>> origin/master
 
 -- --------------------------------------------------------
 

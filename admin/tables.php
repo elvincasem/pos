@@ -119,14 +119,21 @@ $tid=$_REQUEST['tid'];
                     <table class="table">
                       <thead class="thead-inverse">
                         <tr>
+<<<<<<< HEAD
                           <th>Cashier: Richard</th>
                         </tr>
                         <tr>
 
+=======
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+>>>>>>> origin/master
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
+<<<<<<< HEAD
 
                           <td>Additional Charges:0.00</td>
                           <td>Senior Discount:0.00</td>
@@ -145,6 +152,16 @@ $tid=$_REQUEST['tid'];
                           
                           <td>Date:0.00</td>
                           <td>Total Discount:0.00</td>
+=======
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+>>>>>>> origin/master
                         </tr>
                       </tbody>
                     </table>
@@ -211,6 +228,7 @@ $tid=$_REQUEST['tid'];
                         
                     </div>
                         <div>
+<<<<<<< HEAD
                             <h4>Note: lorem ups.....</h4>
                         </div>
                         <br>
@@ -245,6 +263,17 @@ $tid=$_REQUEST['tid'];
                                                           </tbody>
                                               </table>    
                                             </div>
+=======
+                            <h3>Grand Total:0.00</h3>
+                        </div>
+                        <br>
+                        <center>                    
+                            <button type="submit" class="btn btn-primary btn-lg" >DINE IN</button>
+                            <button type="submit" class="btn btn-primary btn-lg">TAKE OUT</button>
+                            <button type="submit" class="btn btn-danger btn-lg">Clear All</button><br><br>
+                            <button type="submit" class="btn btn-primary btn-lg">ASSIGN TO PERSON</button>
+                        </center>
+>>>>>>> origin/master
                 </div>
             </div>
             <!-- /.row -->

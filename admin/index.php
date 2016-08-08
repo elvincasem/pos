@@ -158,6 +158,7 @@ $cid=$_REQUEST['cid'];
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>-->
                                 <table class="table">
+<<<<<<< HEAD
                                                       <thead>
                                                         <tr>
                                                           <th>Meal</th>
@@ -199,6 +200,36 @@ $cid=$_REQUEST['cid'];
                                   <!--end of table-->
                                 
                                 
+=======
+                                  <thead>
+                                    <tr>
+                                      <th>Meal</th>
+                                      <th>Price</th>
+                                      <th>Quantity</th>
+                                      <th>Amount</th>
+                                      
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">French Fries</th>
+                                      <td>90</td>
+                                      <td>3</td>
+                                      <td>270</td>
+                                      <th>x</th>
+
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Coke (RED)</th>
+                                      <td>45</td>
+                                      <td>3</td>
+                                      <td>135</td>
+                                      <th>x</th>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!--end of table-->
+>>>>>>> origin/master
                                 
 
 
@@ -235,6 +266,7 @@ $cid=$_REQUEST['cid'];
                                                                                   foreach ($tlist as $rowsss => $links) {
                                                                                       $tcname = $links['tcontent_name'];
                                                                                       $tid = $links['tableid'];
+<<<<<<< HEAD
                                                                                       $tidd= $links['tcontentid'];
                                                                                       $status = $links['status'];
                                                                                       if($tid==4){
@@ -269,6 +301,13 @@ $cid=$_REQUEST['cid'];
                                                                           </div>
                                                                         </div>
                                                         ';
+=======
+
+                                                                                      if($tid==4){
+                                                                                          //echo '<button type="submit" class="btn btn-primary btn-lg col-sm-2">'.$tcname.'</button>';
+                                                                                          echo '
+                                                                                          <button type="submit" class="btn btn-primary btn-lg col-sm-3"> '.$tcname.'</button>';
+>>>>>>> origin/master
                                                                                       }else{
                                                                                          // echo '<button type="submit" class="btn btn-success btn-lg col-sm-2" disabled> '.$tcname.'</button>';
                                                                                       
@@ -284,12 +323,16 @@ $cid=$_REQUEST['cid'];
                                                                                   foreach ($tlist as $rowsss => $links) {
                                                                                       $tcname = $links['tcontent_name'];
                                                                                       $tid = $links['tableid'];
+<<<<<<< HEAD
                                                                                       $tidd= $links['tcontentid'];
                                                                                       $status = $links['status'];
+=======
+>>>>>>> origin/master
 
                                                                                       if($tid==5){
                                                                                           //echo '<button type="submit" class="btn btn-primary btn-lg col-sm-2">'.$tcname.'</button>';
                                                                                           echo '
+<<<<<<< HEAD
                                                                                           <button type="submit" class="btn btn-danger btn-lg col-sm-2" data-toggle="modal" data-target="#myModal-'.$tidd.'"> '.$tcname.'</button> <!-- Modal -->
                                                                         <div id="myModal-'.$tidd.'" class="modal fade" role="dialog">
                                                                           <div class="modal-dialog modal-sm">
@@ -318,6 +361,9 @@ $cid=$_REQUEST['cid'];
                                                                           </div>
                                                                         </div>
                                                         ';
+=======
+                                                                                          <button type="submit" class="btn btn-danger btn-lg col-sm-2"> '.$tcname.'</button>';
+>>>>>>> origin/master
                                                                                       }else{
                                                                                          // echo '<button type="submit" class="btn btn-success btn-lg col-sm-2" disabled> '.$tcname.'</button>';
                                                                                       
@@ -334,12 +380,16 @@ $cid=$_REQUEST['cid'];
                                                                                   foreach ($tlist as $rowsss => $links) {
                                                                                       $tcname = $links['tcontent_name'];
                                                                                       $tid = $links['tableid'];
+<<<<<<< HEAD
                                                                                       $tidd= $links['tcontentid'];
                                                                                       $status = $links['status'];
+=======
+>>>>>>> origin/master
 
                                                                                       if($tid==3){
                                                                                           //echo '<button type="submit" class="btn btn-primary btn-lg col-sm-2">'.$tcname.'</button>';
                                                                                           echo '
+<<<<<<< HEAD
                                                                                           <button type="submit" class="btn btn-success btn-lg col-sm-1" data-toggle="modal" data-target="#myModal-'.$tidd.'"> '.$tcname.'</button>
                                                                                           <div id="myModal-'.$tidd.'" class="modal fade" role="dialog">
                                                                           <div class="modal-dialog modal-sm">
@@ -368,6 +418,9 @@ $cid=$_REQUEST['cid'];
                                                                           </div>
                                                                         </div>
                                                         ';
+=======
+                                                                                          <button type="submit" class="btn btn-success btn-lg col-sm-1"> '.$tcname.'</button>';
+>>>>>>> origin/master
                                                                                       }else{
                                                                                          // echo '<button type="submit" class="btn btn-success btn-lg col-sm-2" disabled> '.$tcname.'</button>';
                                                                                       
@@ -383,13 +436,17 @@ $cid=$_REQUEST['cid'];
                                                                                   foreach ($tlist as $rowsss => $links) {
                                                                                       $tcname = $links['tcontent_name'];
                                                                                       $tid = $links['tableid'];
+<<<<<<< HEAD
                                                                                       $tidd= $links['tcontentid'];
                                                                                       $status = $links['status'];
+=======
+>>>>>>> origin/master
 
                                                                                       if($tid==1){
                                                                                           //echo '<button type="submit" class="btn btn-primary btn-lg col-sm-2">'.$tcname.'</button>';
                                                                                           echo '
 
+<<<<<<< HEAD
                                                                                           <button type="submit" class="btn btn-info btn-lg col-sm-3" data-toggle="modal" data-target="#myModal-'.$tidd.'"> '.$tcname.'</button>
                                                                                             <div id="myModal-'.$tidd.'" class="modal fade" role="dialog">
                                                                           <div class="modal-dialog modal-sm">
@@ -419,6 +476,9 @@ $cid=$_REQUEST['cid'];
                                                                         </div>
                                                         ';
 
+=======
+                                                                                          <button type="submit" class="btn btn-info btn-lg col-sm-3"> '.$tcname.'</button>';
+>>>>>>> origin/master
                                                                                       }else{
                                                                                          // echo '<button type="submit" class="btn btn-success btn-lg col-sm-2" disabled> '.$tcname.'</button>';
                                                                                       
@@ -434,13 +494,17 @@ $cid=$_REQUEST['cid'];
                                                                                   foreach ($tlist as $rowsss => $links) {
                                                                                       $tcname = $links['tcontent_name'];
                                                                                       $tid = $links['tableid'];
+<<<<<<< HEAD
                                                                                       $tidd= $links['tcontentid'];
                                                                                       $status = $links['status'];
+=======
+>>>>>>> origin/master
 
                                                                                       if($tid==2){
                                                                                           //echo '<button type="submit" class="btn btn-primary btn-lg col-sm-2">'.$tcname.'</button>';
                                                                                           echo '
 
+<<<<<<< HEAD
                                                                                           <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal-'.$tidd.'"> '.$tcname.'</button><br>
                                                                                           <div id="myModal-'.$tidd.'" class="modal fade" role="dialog">
                                                                           <div class="modal-dialog modal-sm">
@@ -470,6 +534,9 @@ $cid=$_REQUEST['cid'];
                                                                         </div>
                                                         ';
 
+=======
+                                                                                          <button type="submit" class="btn btn-warning btn-lg"> '.$tcname.'</button><br>';
+>>>>>>> origin/master
                                                                                       }else{
                                                                                          // echo '<button type="submit" class="btn btn-success btn-lg col-sm-2" disabled> '.$tcname.'</button>';
                                                                                       
@@ -493,6 +560,7 @@ $cid=$_REQUEST['cid'];
 
 
 
+<<<<<<< HEAD
                             <button type="submit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">TAKE OUT</button>
                                  <!-- Modal -->
                                   <div id="myModal2" class="modal fade" role="dialog">
@@ -671,12 +739,16 @@ $cid=$_REQUEST['cid'];
 
                                       </div>
                                   </div><!--end of modal-->
+=======
+                            <button type="submit" class="btn btn-primary btn-lg">TAKE OUT</button>
+>>>>>>> origin/master
                             <button type="submit" class="btn btn-danger btn-lg">Clear All</button><br><br>
                             <button type="submit" class="btn btn-primary btn-lg">ASSIGN TO PERSON</button>
                         </center>
                 </div>
             </div>
             <!-- /.row -->
+<<<<<<< HEAD
             <div id="myModal3" class="modal fade" role="dialog">
               <div class="modal-dialog">
                 <!-- Modal content-->
@@ -694,6 +766,9 @@ $cid=$_REQUEST['cid'];
               </div>
             </div>
           </div>
+=======
+           
+>>>>>>> origin/master
         </div>
         <!-- /#page-wrapper -->
 

@@ -9,7 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+<<<<<<< HEAD
     <title>POS SEBAY SURF CENTRAL</title>
+=======
+    <title>E-Source: Digital Asset Management Software for Modern Enterprise</title>
+>>>>>>> origin/master
 	<!-- Custom CSS by Elvin -->
 	<link href="dist/css/custom.css" rel="stylesheet">
 	
