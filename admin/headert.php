@@ -62,9 +62,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>     
-                <div class="row">           
-    				<img src="images/pos2.png" height="60px">
+                </button>                
+				<div class="row">           
+                    <img src="images/pos2.png" height="60px">
                  
                     <a href="index.php">
                         <button type="submit" class="btn btn-success btn-lg">New Orders</button>
@@ -73,6 +73,7 @@
                         <button type="submit" class="btn btn-primary btn-lg">Tables</button>
                     </a>
                 </div>
+
             </div>
 
             <!-- /.navbar-header -->
@@ -159,7 +160,7 @@
             </ul>
             <!-- /.navbar-top-links -->
 
-            <?php include('navigation.php');?>
+            <?php include('navigationt.php');?>
         </nav>
 
         

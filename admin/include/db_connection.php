@@ -3,10 +3,10 @@
 function dbConnect (){
  	$conn =	null;
  	$host = 'localhost';
- 	$db = 	'sebaypos_db';
+ 	$db = 	'sebaypos_dbmenu';
  	$user = 'root';
  	//$pwd = 	's3b@ysurfc3ntr@l';
-	$pwd = 	'';
+	$pwd = 	's3b@ysurfc3ntr@l';
 	try {
 	   	$conn = new PDO('mysql:host='.$host.';dbname='.$db, $user, $pwd);
 		//echo 'Connected succesfully.<br>';

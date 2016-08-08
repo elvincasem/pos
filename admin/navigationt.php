@@ -1,7 +1,7 @@
 <div class="navbar-default sidebar" role="navigation" >
    <ul class="nav" id="side-menu">
       
-        <li>        <h3><center>MENU</center></h3> </li>
+        <li>        <h3><center>Tables</center></h3> </li>
     </ul>
                 <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:450px;" >
                     <ul class="nav" id="side-menu">
@@ -19,18 +19,32 @@
                        
                          <?php
                         include_once("include/functions.php");          
-                        $emplist = selectListSQL("SELECT * FROM tblcategory");
+                        $emplist = selectListSQL("SELECT * FROM tbltable");
                         foreach ($emplist as $rows => $link) {
-                            $menu = $link['category_name'];
-                            $cid = $link['categoryid'];
+                            $table = $link['table_name'];
+                            $tid = $link['tableid'];
                             
 
                           echo '<li>
-                                    <a href="index.php?cid='.$cid.'">'.$menu.'</a>
+                                    <a href="tables.php?tid='.$tid.'">'.$table.'</a>
                                 </li>';
                             }
                         ?>
-                       
+                        
+                        <div class="col-sm-16" style="margin-left:20px; margin-top:20px;">
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">ADD<br> ORDER</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">VIEW<br>CHARGES</button>
+                        
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SENIOR<br>DISCOUNT</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SPECIAL<br>DISCOUNT</button>
+                        
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SPLIT<br>BILL</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">TRANSFER<br>TABLE</button>
+                        
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">COMPLE-<br>MENTARY</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6">VIEW<br>NOTE</button>
+                      </div>
+                      
                         <!--
 						<li>
                             <a href="#"  style="color:#bd0000;"><i class="fa fa-cubes fa-2x"></i> ASSET MANAGEMENT<span class="fa arrow"></span></a>
