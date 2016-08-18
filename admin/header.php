@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> origin/master
     <title>POS SEBAY SURF CENTRAL</title>
 	<!-- Custom CSS by Elvin -->
 	<link href="dist/css/custom.css" rel="stylesheet">
@@ -72,7 +76,11 @@
                     <a href="index.php">
                         <button type="submit" class="btn btn-success btn-lg">New Orders</button>
                     </a>
+<<<<<<< HEAD
                     <a href="tables.php?tid=1">
+=======
+                    <a href="tables.php">
+>>>>>>> origin/master
                         <button type="submit" class="btn btn-primary btn-lg">Tables</button>
                     </a>
                 </div>
