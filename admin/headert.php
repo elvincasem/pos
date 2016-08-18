@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
+
     <title>POS SEBAY SURF CENTRAL</title>
 	<!-- Custom CSS by Elvin -->
 	<link href="dist/css/custom.css" rel="stylesheet">
@@ -65,9 +65,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>     
-                <div class="row">           
-    				<img src="images/pos2.png" height="60px">
+                </button>                
+				<div class="row">           
+                    <img src="images/pos2.png" height="60px">
                  
                     <a href="index.php">
                         <button type="submit" class="btn btn-success btn-lg">New Orders</button>
@@ -76,6 +76,7 @@
                         <button type="submit" class="btn btn-primary btn-lg">Tables</button>
                     </a>
                 </div>
+
             </div>
 
             <!-- /.navbar-header -->
@@ -142,16 +143,19 @@
                     </ul>
                     <!-- /.dropdown-alerts -->
                 </li>
-                                <li>
+                                                <li>
                    
 <?php 
+    //date_default_timezone_set("Asia/Manila"); 
+    //echo date('d-m-Y H:i:s'); //Returns IST 
+    
 
 $zone=3600-29900;//USA 
 $date=gmdate("F j, Y, g:i a", time() + $zone); 
 echo $date;
+
+
 ?>
-
-
 
 
 
@@ -173,12 +177,11 @@ echo $date;
                     </ul>
                     <!-- /.dropdown-user -->
                 </li>
-
                 <!-- /.dropdown -->
             </ul>
             <!-- /.navbar-top-links -->
 
-            <?php include('navigation.php');?>
+            <?php include('navigationt.php');?>
         </nav>
 
         

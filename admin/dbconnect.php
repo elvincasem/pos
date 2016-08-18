@@ -1,12 +1,11 @@
-<?php 
-
+<?php
+//database connection
 function dbConnect (){
  	$conn =	null;
  	$host = 'localhost';
- 	$db = 	'sebaypos_dbmenu';
+ 	$db = 	'polyglotdb';
  	$user = 'root';
- 	//$pwd = 	's3b@ysurfc3ntr@l';
-	$pwd = 	's3b@ysurfc3ntr@l';
+ 	$pwd = 	's3b@ysurfc3ntr@l';
 	try {
 	   	$conn = new PDO('mysql:host='.$host.';dbname='.$db, $user, $pwd);
 		//echo 'Connected succesfully.<br>';
@@ -18,5 +17,7 @@ function dbConnect (){
 	}
 	return $conn;
  }
+
+
 
 ?>

@@ -12,9 +12,6 @@
     <title>POS SEBAY SURF CENTRAL</title>
 	<!-- Custom CSS by Elvin -->
 	<link href="dist/css/custom.css" rel="stylesheet">
-
-    <!-- jQuery -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 	
     <!-- Bootstrap Core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -142,16 +139,19 @@
                     </ul>
                     <!-- /.dropdown-alerts -->
                 </li>
-                                <li>
+                                                <li>
                    
 <?php 
+    //date_default_timezone_set("Asia/Manila"); 
+    //echo date('d-m-Y H:i:s'); //Returns IST 
+    
 
-$zone=3600-29900;//USA 
+    $zone=3600-29900;//USA 
 $date=gmdate("F j, Y, g:i a", time() + $zone); 
 echo $date;
+
+
 ?>
-
-
 
 
 
@@ -173,12 +173,11 @@ echo $date;
                     </ul>
                     <!-- /.dropdown-user -->
                 </li>
-
                 <!-- /.dropdown -->
             </ul>
             <!-- /.navbar-top-links -->
 
-            <?php include('navigation.php');?>
+            <?php //include('navigation.php');?>
         </nav>
 
         

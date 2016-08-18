@@ -1,9 +1,9 @@
-<div class="navbar-default sidebar" role="navigation" >
-   <ul class="nav" id="side-menu">
+<div class="navbar-default sidebar" role="navigation"  >
+   <ul class="nav" id="side-menu" >
       
-        <li>        <h3><center>MENU</center></h3> </li>
+        <li>        <h3 style="margin-top:-30px;"><center>Tables</center></h3> </li>
     </ul>
-                <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:550px;" >
+                <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:600px;" >
                     <ul class="nav" id="side-menu">
                       <!--  <li class="sidebar-search">
                             <div class="input-group custom-search-form">
@@ -19,18 +19,35 @@
                        
                          <?php
                         include_once("include/functions.php");          
-                        $emplist = selectListSQL("SELECT * FROM tblcategory");
+                        $emplist = selectListSQL("SELECT * FROM tbltable");
                         foreach ($emplist as $rows => $link) {
-                            $menu = $link['category_name'];
-                            $cid = $link['categoryid'];
+                            $table = $link['table_name'];
+                            $tid = $link['tableid'];
                             
 
                           echo '<li>
-                                    <a href="index.php?cid='.$cid.'" style="font-size:20px;">'.$menu.'</a>
+                                    <a href="tables.php?tid='.$tid.'" style="font-size:20px;">'.$table.'</a>
                                 </li>';
                             }
                         ?>
-                       
+                        
+                        <div class="col-sm-16" style="margin-left:20px; margin-top:20px;">
+                        <button type="submit" class="btn btn-success btn-md col-sm-12" data-toggle="modal" data-target="#">Assign to Person</button>
+                        <br>
+                        <br>
+                        <a href="addorder.php"><button type="submit" class="btn btn-primary btn-md col-sm-6">ADD<br> ORDER</button></a>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#viewcharges">VIEW<br>CHARGES</button>
+                        
+    
+                        
+                        <a href="splitbill.php"><button type="submit" class="btn btn-primary btn-md col-sm-6">SPLIT<br>BILL</button></a>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#transfer" >TRANSFER<br>TABLE</button>
+                        
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#complementary" >COMPLE-<br>MENTARY</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#viewnote" >VIEW<br>NOTE</button>
+                        <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#addcharges" >ADD<br>CHARGES</button>
+                      </div>
+                      
                         <!--
 						<li>
                             <a href="#"  style="color:#bd0000;"><i class="fa fa-cubes fa-2x"></i> ASSET MANAGEMENT<span class="fa arrow"></span></a>
@@ -109,6 +126,10 @@
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
+
+
+
+           
             <!-- /.navbar-static-side -->
             <style>
 
@@ -132,3 +153,6 @@
                 }
 
             </style>
+
+
+            

@@ -142,16 +142,19 @@
                     </ul>
                     <!-- /.dropdown-alerts -->
                 </li>
-                                <li>
+                                                <li>
                    
 <?php 
+    //date_default_timezone_set("Asia/Manila"); 
+    //echo date('d-m-Y H:i:s'); //Returns IST 
+    
 
-$zone=3600-29900;//USA 
+    $zone=3600-29900;//USA 
 $date=gmdate("F j, Y, g:i a", time() + $zone); 
 echo $date;
+
+
 ?>
-
-
 
 
 
@@ -173,12 +176,11 @@ echo $date;
                     </ul>
                     <!-- /.dropdown-user -->
                 </li>
-
                 <!-- /.dropdown -->
             </ul>
             <!-- /.navbar-top-links -->
 
-            <?php include('navigation.php');?>
+            <?php //include('navigation.php');?>
         </nav>
 
         
