@@ -3,11 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
-<<<<<<< HEAD
+
 -- Generation Time: Aug 08, 2016 at 11:57 PM
 =======
 -- Generation Time: Aug 06, 2016 at 12:24 AM
->>>>>>> origin/master
+
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -421,10 +421,10 @@ CREATE TABLE IF NOT EXISTS `tbltcontent` (
   `tcontentid` int(11) NOT NULL AUTO_INCREMENT,
   `tableid` int(11) NOT NULL,
   `tcontent_name` varchar(255) NOT NULL,
-<<<<<<< HEAD
+
   `status` int(11) NOT NULL DEFAULT '0',
 =======
->>>>>>> origin/master
+
   PRIMARY KEY (`tcontentid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=42 ;
 
@@ -432,7 +432,7 @@ CREATE TABLE IF NOT EXISTS `tbltcontent` (
 -- Dumping data for table `tbltcontent`
 --
 
-<<<<<<< HEAD
+
 INSERT INTO `tbltcontent` (`tcontentid`, `tableid`, `tcontent_name`, `status`) VALUES
 (1, 1, '1-A', 1),
 (2, 1, '1-B', 0),
@@ -541,7 +541,7 @@ INSERT INTO `tbltcontent` (`tcontentid`, `tableid`, `tcontent_name`) VALUES
 (39, 5, 'X8'),
 (40, 5, 'X9'),
 (41, 5, 'X10');
->>>>>>> origin/master
+
 
 -- --------------------------------------------------------
 
