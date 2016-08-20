@@ -212,7 +212,7 @@ $cid=$_REQUEST['cid'];
                         <br>
                         <center>
                             <button type="submit" class="btn btn-primary btn-lg" >Print to Kitchen</button>            
-                            <a href="tables.php"><button type="submit" class="btn btn-primary btn-lg">Add Order</button></a>
+                            <a href="tables.php?tid=1"><button type="submit" class="btn btn-primary btn-lg">Add Order</button></a>
                               <br>
                         <!-- Modal -->
                                                                         <div id="myModal1" class="modal fade" role="dialog">

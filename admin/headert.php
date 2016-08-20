@@ -9,22 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
     <title>POS SEBAY SURF CENTRAL</title>
 	<!-- Custom CSS by Elvin -->
 	<link href="dist/css/custom.css" rel="stylesheet">
 
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-=======
-<<<<<<< HEAD
-    <title>POS SEBAY SURF CENTRAL</title>
-=======
-    <title>E-Source: Digital Asset Management Software for Modern Enterprise</title>
->>>>>>> origin/master
-	<!-- Custom CSS by Elvin -->
-	<link href="dist/css/custom.css" rel="stylesheet">
->>>>>>> origin/master
 	
     <!-- Bootstrap Core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -82,11 +72,7 @@
                     <a href="index.php">
                         <button type="submit" class="btn btn-success btn-lg">New Orders</button>
                     </a>
-<<<<<<< HEAD
                     <a href="tables.php?tid=1">
-=======
-                    <a href="tables.php">
->>>>>>> origin/master
                         <button type="submit" class="btn btn-primary btn-lg">Tables</button>
                     </a>
                 </div>
@@ -157,7 +143,6 @@
                     </ul>
                     <!-- /.dropdown-alerts -->
                 </li>
-<<<<<<< HEAD
                                                 <li>
                    
 <?php 
@@ -176,8 +161,6 @@ echo $date;
 
                    
                 </li>
-=======
->>>>>>> origin/master
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">

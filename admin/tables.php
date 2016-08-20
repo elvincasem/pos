@@ -44,11 +44,7 @@ $tid=$_REQUEST['tid'];
                         </div>
                          
                         <a href="#" >
-<<<<<<< HEAD
                             <div class="panel-footer" style="height:480px; overflow-y: scroll;" >
-=======
-                            <div class="panel-footer" style="height:280px; overflow-y: scroll;" >
->>>>>>> origin/master
                                <!-- <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>-->
@@ -71,11 +67,7 @@ $tid=$_REQUEST['tid'];
                                                         <div class="row">
                                                             <div class="col-xs-16 text-center">
                                                                
-<<<<<<< HEAD
                                                                 <a href="finalize.php" style="color:white;"><h4>'.$tcontent_name.'</h4></a>
-=======
-                                                                <div data-toggle="modal" data-target="#myModal-'.$tcontentid.'"><h4>'.$tcontent_name.'</h3></div>
->>>>>>> origin/master
                                                                     <!-- Modal -->
                                                                         <div id="myModal-'.$tcontentid.'" class="modal fade" role="dialog">
                                                                           <div class="modal-dialog">
@@ -127,27 +119,13 @@ $tid=$_REQUEST['tid'];
                     <table class="table">
                       <thead class="thead-inverse">
                         <tr>
-<<<<<<< HEAD
                           <th>Cashier: Richard</th>
                         </tr>
                         <tr>
-=======
-<<<<<<< HEAD
-                          <th>Cashier: Richard</th>
-                        </tr>
-                        <tr>
-
-=======
-                          <th>#</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
->>>>>>> origin/master
->>>>>>> origin/master
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-<<<<<<< HEAD
                           <td style="font-weight:bold;">Additional Charges:0.00</td>
                         </tr>
                         <tr>
@@ -158,37 +136,6 @@ $tid=$_REQUEST['tid'];
                               echo $date;
                             ?>
                           </td>
-=======
-<<<<<<< HEAD
-
-                          <td>Additional Charges:0.00</td>
-                          <td>Senior Discount:0.00</td>
-                        </tr>
-                        <tr>
-                          
-                          <td>Amount Tender:0.00</td>
-                          <td>Special Discount:0.00</td>
-                        </tr>
-                        <tr>
-                          
-                          <td>Amount Change:0.00</td>
-                          <td>VAT(12%):0.00</td>
-                        </tr>
-                        <tr>
-                          
-                          <td>Date:0.00</td>
-                          <td>Total Discount:0.00</td>
-=======
-                          <th scope="row">1</th>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>Jacob</td>
-                          <td>Thornton</td>
->>>>>>> origin/master
->>>>>>> origin/master
                         </tr>
                       </tbody>
                     </table>
@@ -204,42 +151,26 @@ $tid=$_REQUEST['tid'];
 
                 <div class="col-lg-5 col-md-6" style="margin-top:10px;">
                     <div class="panel panel-red">
-<<<<<<< HEAD
                         <div class="panel-heading" style="height:75px;">
-=======
-                        <div class="panel-heading" style="height:65px;">
->>>>>>> origin/master
                             <div class="row">
                                 <div class="col-xs-3">
                                     <i class="fa fa-calculator fa-3x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-<<<<<<< HEAD
                                   <h6>SUMMARY OF ORDERS</h6>
                                   <h4>Table No. 2  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   Order No. 252</h4>
-=======
-                                  <h3>SUMMARY OF ORDERS</h3>
->>>>>>> origin/master
                                 </div>
                             </div>
                         </div>
                         
-<<<<<<< HEAD
                             <div class="panel-footer" style="height:300px;overflow-y: scroll;">
-=======
-                            <div class="panel-footer" style="height:280px;overflow-y: scroll;">
->>>>>>> origin/master
                                <!-- <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>-->
                                 <table class="table">
                                   <thead>
                                     <tr>
-<<<<<<< HEAD
                                       <th>Items</th>
-=======
-                                      <th>Meal</th>
->>>>>>> origin/master
                                       <th>Price</th>
                                       <th>Quantity</th>
                                       <th>Amount</th>
@@ -272,51 +203,37 @@ $tid=$_REQUEST['tid'];
                         
                     </div>
                         <div>
-<<<<<<< HEAD
                             <h4>Note: lorem ups.....</h4>
                         </div>
                         <br>
-                        <div class="col-sm-5" style="margin-top:-20px;">
-=======
-<<<<<<< HEAD
-                            <h4>Note: lorem ups.....</h4>
-                        </div>
-                        <br>
-                        <div class="col-sm-7">                   
-                            <button type="submit" class="btn btn-primary btn-lg col-sm-7">CASH</button>
-                            <button type="submit" class="btn btn-primary btn-lg col-sm-7">CREDIT</button>
-                            <button type="submit" class="btn btn-danger btn-lg col-sm-7">CANCEL<br> ORDER</button>
-                        </div>
-                        <div class="col-sm-5" style="margin-top:-20px; margin-left:-60px;">
->>>>>>> origin/master
+                        <div class="col-sm-6" style="margin-top:-20px;">
                                               <table class="table">
                                                           <thead>
                                                           <tr>
-                                                            <th><h5>SUB TOTAL:</h5></th> 
+                                                            <th><h4 style="font-weight:bold;">SUB TOTAL:</h4></th> 
                                                           </tr>
                                                           </thead>
                                                           <tbody>
                                                             <tr>
-                                                               <td><h3 style="margin-top:-5px; font-weight:bold;">0.00</h3></td>
+                                                               <td><h3 style="margin-top:-5px; font-weight:bold; color:red;">0.00</h3></td>
                                                             </tr>
                                                           </tbody>
                                               </table>     
                                               <table class="table" style="margin-top:-40px;">
                                                           <thead>
                                                           <tr>
-                                                            <th><h5>GRAND TOTAL:</h5></th> 
+                                                            <th><h4 style="font-weight:bold;">GRAND TOTAL:</h4></th> 
                                                           </tr>
                                                           </thead>
                                                           <tbody>
                                                             <tr>
-                                                               <td><h3 style="margin-top:-5px; font-weight:bold;">0.00</h3></td>
+                                                               <td><h3 style="margin-top:-5px; font-weight:bold; color:red;">0.00</h3></td>
                                                             </tr>
                                                           </tbody>
                                               </table>    
-<<<<<<< HEAD
                         </div>
-                        <div class="col-sm-7">                   
-                            <a href="finalize.php"><button type="submit" class="btn btn-primary btn-lg col-sm-7">BILL OUT</button></a>
+                        <div class="col-sm-6">                   
+                            <a href="finalize.php"><button type="submit" class="btn btn-primary btn-lg ">BILL OUT</button></a>
 
                         </div>
                 </div>
@@ -516,30 +433,10 @@ $tid=$_REQUEST['tid'];
                                       </div>
                                     </div><!--speciald-->
                                     </div>
-=======
-                                            </div>
-=======
-                            <h3>Grand Total:0.00</h3>
-                        </div>
-                        <br>
-                        <center>                    
-                            <button type="submit" class="btn btn-primary btn-lg" >DINE IN</button>
-                            <button type="submit" class="btn btn-primary btn-lg">TAKE OUT</button>
-                            <button type="submit" class="btn btn-danger btn-lg">Clear All</button><br><br>
-                            <button type="submit" class="btn btn-primary btn-lg">ASSIGN TO PERSON</button>
-                        </center>
->>>>>>> origin/master
-                </div>
-            </div>
-            <!-- /.row -->
-           
-        </div>
->>>>>>> origin/master
         <!-- /#page-wrapper -->
 
     </div>
 
-<<<<<<< HEAD
 
 
 
@@ -940,8 +837,6 @@ $tid=$_REQUEST['tid'];
 
 
 
-=======
->>>>>>> origin/master
 <?php
 include('footer.php');
 ?>

@@ -3,11 +3,7 @@
       
         <li>        <h3><center>MENU</center></h3> </li>
     </ul>
-<<<<<<< HEAD
                 <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:550px;" >
-=======
-                <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:450px;" >
->>>>>>> origin/master
                     <ul class="nav" id="side-menu">
                       <!--  <li class="sidebar-search">
                             <div class="input-group custom-search-form">
@@ -30,11 +26,7 @@
                             
 
                           echo '<li>
-<<<<<<< HEAD
                                     <a href="index.php?cid='.$cid.'" style="font-size:20px;">'.$menu.'</a>
-=======
-                                    <a href="index.php?cid='.$cid.'">'.$menu.'</a>
->>>>>>> origin/master
                                 </li>';
                             }
                         ?>

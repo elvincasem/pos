@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 <div class="navbar-default sidebar" role="navigation"  >
    <ul class="nav" id="side-menu" >
       
         <li>        <h3 style="margin-top:-30px;"><center>Tables</center></h3> </li>
     </ul>
                 <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:600px;" >
-=======
-<div class="navbar-default sidebar" role="navigation" >
-   <ul class="nav" id="side-menu">
-      
-        <li>        <h3><center>Tables</center></h3> </li>
-    </ul>
-                <div class="sidebar-nav navbar-collapse" style="overflow-y: scroll; height:450px;" >
->>>>>>> origin/master
                     <ul class="nav" id="side-menu">
                       <!--  <li class="sidebar-search">
                             <div class="input-group custom-search-form">
@@ -35,17 +26,12 @@
                             
 
                           echo '<li>
-<<<<<<< HEAD
                                     <a href="tables.php?tid='.$tid.'" style="font-size:20px;">'.$table.'</a>
-=======
-                                    <a href="tables.php?tid='.$tid.'">'.$table.'</a>
->>>>>>> origin/master
                                 </li>';
                             }
                         ?>
                         
                         <div class="col-sm-16" style="margin-left:20px; margin-top:20px;">
-<<<<<<< HEAD
                         <button type="submit" class="btn btn-success btn-md col-sm-12" data-toggle="modal" data-target="#">Assign to Person</button>
                         <br>
                         <br>
@@ -60,19 +46,6 @@
                         <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#complementary" >COMPLE-<br>MENTARY</button>
                         <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#viewnote" >VIEW<br>NOTE</button>
                         <button type="submit" class="btn btn-primary btn-md col-sm-6" data-toggle="modal" data-target="#addcharges" >ADD<br>CHARGES</button>
-=======
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">ADD<br> ORDER</button>
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">VIEW<br>CHARGES</button>
-                        
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SENIOR<br>DISCOUNT</button>
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SPECIAL<br>DISCOUNT</button>
-                        
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">SPLIT<br>BILL</button>
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">TRANSFER<br>TABLE</button>
-                        
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">COMPLE-<br>MENTARY</button>
-                        <button type="submit" class="btn btn-primary btn-md col-sm-6">VIEW<br>NOTE</button>
->>>>>>> origin/master
                       </div>
                       
                         <!--
@@ -153,13 +126,10 @@
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
-<<<<<<< HEAD
 
 
 
            
-=======
->>>>>>> origin/master
             <!-- /.navbar-static-side -->
             <style>
 
@@ -182,11 +152,7 @@
                   -webkit-border-radius: 80px;
                 }
 
-<<<<<<< HEAD
             </style>
 
 
             
-=======
-            </style>
->>>>>>> origin/master

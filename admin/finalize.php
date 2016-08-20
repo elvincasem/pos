@@ -210,8 +210,8 @@ $cid=$_REQUEST['cid'];
                                         <h3 style="font-weight:bold;">Change: <h3 style="font-weight:bold; color:red;">740.00</h3></h3>
                                     </div>
                                     <div class="col-sm-6" style="margin-top:20px;">
-                                      <center><button type="button" class="btn btn-primary btn-lg col-sm-6">OK</button>
-                                              <button type="button" class="btn btn-default btn-lg col-sm-6">SAVE</button>
+                                      <center><button type="button" class="btn btn-primary btn-lg col-sm-6" id="unbind22" disabled>OK</button>
+                                              <button type="button" class="btn btn-default btn-lg col-sm-6" id="unbind23" disabled>SAVE</button>
                                       </center>
                                     </div>
 
@@ -471,7 +471,9 @@ $cid=$_REQUEST['cid'];
                                  $("#unbind18").removeAttr("disabled");
                                  $("#unbind19").removeAttr("disabled");
                                  $("#unbind20").removeAttr("disabled");
+                                 $("#unbind22").removeAttr("disabled");
                                  $("#unbind21").removeAttr("disabled");
+                                 $("#unbind23").removeAttr("disabled");
 
 
                               });
